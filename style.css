@@ -3,3 +3,51 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+#featured-property img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+
+}
+#featured-property figure  {
+  text-align: center;
+}
+nav {
+  text-align: center;
+  padding: 10px;
+  
+}
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffd700;
+  font-weight: bold;
+  transition: 0.3s;
+  background-color: #808080;
+}
+nav a:hover {
+  color: #007bff;
+}
+figcaption {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 8px;
+}
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  line-height: 1.5;
+  margin: 20px auto;
+}
+#details div {
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
